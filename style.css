@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: red;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: darkred;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.greeting {
+    background-color: #dcdcff;
+    padding: 30px;
+}
+
+.card {
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.card h3 {
+    color: #25245c;
+}
+
+table {
+    margin: auto;
+    width: 350px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+form {
+    background-color: #dcdcff;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
